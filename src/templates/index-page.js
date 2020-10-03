@@ -19,9 +19,11 @@ export const IndexPageTemplate = ({
     <div
       className="full-width-image margin-top-0"
       style={{
+        /*
         backgroundImage: `url(${
           !!image.childImageSharp ? image.childImageSharp.fluid.src : image
         })`,
+        */
         backgroundPosition: `top left`,
         backgroundAttachment: `fixed`,
       }}
@@ -50,7 +52,7 @@ export const IndexPageTemplate = ({
           {title}
         </h1>
         <h3
-          className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
+          className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen has-text-centered"
           style={{
             boxShadow:
               'rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px',
@@ -70,6 +72,8 @@ export const IndexPageTemplate = ({
           <div className="columns">
             <div className="column is-10 is-offset-1">
               <div className="content">
+                {/*
+
                 <div className="content">
                   <div className="tile">
                     <h1 className="title">{mainpitch.title}</h1>
@@ -86,12 +90,12 @@ export const IndexPageTemplate = ({
                     <p>{description}</p>
                   </div>
                 </div>
+                */}
+
+                {/*
                 <Features gridItems={intro.blurbs} />
                 <div className="columns">
                   <div className="column is-12 has-text-centered">
-                    <Link className="btn" to="/products">
-                      See all products
-                    </Link>
                   </div>
                 </div>
                 <div className="column is-12">
@@ -105,6 +109,7 @@ export const IndexPageTemplate = ({
                     </Link>
                   </div>
                 </div>
+                */}
               </div>
             </div>
           </div>
